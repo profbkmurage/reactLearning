@@ -13,7 +13,10 @@ import MyComponent from "./MyComponent.jsx"
 import Counter from "./Counter.jsx";
 import ChangeHandler from "./OnchangeFile.jsx";
 import ColorPicker from "./ColorPicker.jsx";
-
+import UpdaterFunction from "./UpdaterFunctions.jsx";
+import FoodUpdater from "./FoodUpdater.jsx";
+import CarUpdater from "./CarUpdater.jsx";
+import ToDoList from "./ToDoList.jsx";
 function App() {
 
     const fruits = [{ id:1 ,name: 'Banana', carlories: 50 },
@@ -38,9 +41,16 @@ function App() {
     <> 
       <Header></Header> {/* //can also be written as <Header/> */} 
 
+      <ToDoList />
+      <hr />
       <Food />
       <hr />
-
+      <CarUpdater/> 
+      <hr />
+      <UpdaterFunction/>
+      <hr />
+      <FoodUpdater/>
+      <hr />
       <List/> {/*this pulls from one componet that is not reusable*/}
       <hr />
       <ColorPicker/>
