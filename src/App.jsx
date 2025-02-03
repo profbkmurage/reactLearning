@@ -16,7 +16,7 @@ import ColorPicker from "./ColorPicker.jsx";
 import UpdaterFunction from "./UpdaterFunctions.jsx";
 import FoodUpdater from "./FoodUpdater.jsx";
 import CarUpdater from "./CarUpdater.jsx";
-import ToDoList from "./ToDoList.jsx";
+import ToDooList from "./ToDooList.jsx";
 function App() {
 
     const fruits = [{ id:1 ,name: 'Banana', carlories: 50 },
@@ -44,7 +44,7 @@ function App() {
       <hr />
       <Food />
       <hr />
-      <ToDoList />
+      <ToDooList />
       <hr />
       <CarUpdater/> 
       <hr />
