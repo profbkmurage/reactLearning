@@ -41,9 +41,10 @@ function App() {
     <> 
       <Header></Header> {/* //can also be written as <Header/> */} 
 
-      <ToDoList />
       <hr />
       <Food />
+      <hr />
+      <ToDoList />
       <hr />
       <CarUpdater/> 
       <hr />
