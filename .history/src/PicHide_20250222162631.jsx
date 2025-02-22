@@ -1,7 +1,7 @@
 function PicHide() {
-    const imgURL = '.src/assets/bk.jpg';
+    const imgURL = './src/assets/bk-CUopmjWA.jpg';
 
-    const handleClick = (e) => e.target.style.dsplay = 'none';
+    const handleClick = (e) => e.target.style.display = 'none';
 
     return (
         <img onClick={(e)=> handleClick(e)} src={imgURL} alt="" ></img>

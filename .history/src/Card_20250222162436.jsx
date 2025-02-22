@@ -1,4 +1,6 @@
-import profilePic from "./assets/bk-CUopmjWA.jpg"
+import profilePic from "<div className="" />
+<assets />
+<bk></bk>.jpg"
     
 function Card() {
     return (
